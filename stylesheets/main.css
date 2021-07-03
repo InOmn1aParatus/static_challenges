@@ -1,4 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   background: red;
-  height: 50px;
+  height: 100px;
+}
+
+header h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
+
+header nav {
+  font-size: 10px;
+  float: right;
+  padding-right: 30px;
+}
+
+.links {
+  background-color: darkgray;
+  text-align: right;
+  padding: 30px;
+}
+
+a {
+  color: white;
+}
+
+.main {
+  background: white;
+  float: left;
+}
+
+aside {
+  float: right;
+}
+
+footer {
+  background: darkgray;
+  color: white;
 }
